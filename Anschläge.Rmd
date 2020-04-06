@@ -41,3 +41,6 @@ plot(raf_anschlaege_1977, layout=layout_with_kk,
 ```
 #beim ersten Mal hat es geklappt aber jetzt zeigt das dumme Ding aus irgendeinem Grund auch die Jahreszahlen > 1977 an, obwohl Löschbefehl angegeben
 #why
+
+# try this: logischen Operator ungleich verwenden!
+# raf_anschlaege_1977 <- delete_vertices(raf_anschlaege, V(raf_anschlaege)[year != "1977"])year 
